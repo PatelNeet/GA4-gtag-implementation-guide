@@ -3,9 +3,10 @@
 # gtag initalization
 
 <!-- Global site tag for Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || []; 
   function gtag() {
     dataLayer.push(arguments);
   }
